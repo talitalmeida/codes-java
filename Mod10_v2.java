@@ -31,7 +31,7 @@ public class Mod10_v2 {
 				int pond = d * mult;
 				soma += pond;
 
-				mult = mult == 3 ? 1 : 3;
+				mult = 4 - mult;
 			}
 		}
 
